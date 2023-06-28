@@ -15,5 +15,9 @@ public class Grammer04 {
         // 4. 자른 배열 출력
         System.out.println(Arrays.toString(arr1));  // [0, 1, 2]
         System.out.println(Arrays.toString(arr2));  // [3, 4, 5]
+
+        int[] arr3 = new int[] {12,34,45,21,33,4};
+        int sum = Arrays.stream(arr3).sum();
+        System.out.println("Array Sum = "+sum);
     }
 }
